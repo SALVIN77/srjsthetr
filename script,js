@@ -1,0 +1,24 @@
+console.log(document.all);
+
+var hd = document.getElementById('head');
+console.log(hd);
+
+hd.style.color='red';
+hd.innerText="javascript is fun";
+
+var tag = document.getElementById('tag1');
+tag.innerHTML = '<p>Addding an inner html</p>'
+
+var ls = document.getElementsByClassName('list');
+ls[0].style.color = 'blue';
+
+var p=document.getElementsByClassName('page');
+console.log(p)
+p[0].style.color='red';
+ 
+var x = document.querySelectorAll("h1")
+console.log(x);
+
+var h = document.getElementsByTagName('h1');
+h[0].style.color = 'yellow';
+h[1].style.color = 'yellow';
